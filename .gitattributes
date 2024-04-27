@@ -1,1 +1,2 @@
 *.png filter=lfs diff=lfs merge=lfs -text
+Assets/file/all_building01.fbx filter=lfs diff=lfs merge=lfs -text
