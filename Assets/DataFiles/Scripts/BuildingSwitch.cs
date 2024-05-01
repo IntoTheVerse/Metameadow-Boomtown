@@ -6,7 +6,11 @@ public class BuildingSwitch : MonoBehaviour
 
     public void SpawnPlayer(GameObject player)
     {
+        Debug.Log(playerSpawn.position);
+        Debug.Log(player.transform.position);
+        player.GetComponent<Rigidbody>().isKinematic = true;
         player.transform.position = playerSpawn.position;
-        gameObject.SetActive(true);
+        player.GetComponent<Rigidbody>().isKinematic = false;
+        Debug.Log(player.transform.position);
     }
 }
