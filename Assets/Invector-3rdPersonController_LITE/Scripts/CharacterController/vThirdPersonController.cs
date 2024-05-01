@@ -111,8 +111,8 @@ namespace Invector.vCharacterController
             localPlayer = photonView.IsMine;
             if (photonView.IsMine)
             {
-                _gameOver =  FindObjectOfType<PvPGameOver>().gameObject;
-                //_winScreen = FindObjectOfType<PvPWinScreen>().gameObject;
+                _gameOver =  FindObjectOfType<PvPGameOver>(true).gameObject;
+                //_winScreen = FindObjectOfType<PvPWinScreen>(true).gameObject;
                 _preparingForgame = FindObjectOfType<Preparinggame>().gameObject;
                 FindObjectOfType<CameraFollowingPlayer>().Player = gameObject;
                 StartCoroutine(DisableScreens());
