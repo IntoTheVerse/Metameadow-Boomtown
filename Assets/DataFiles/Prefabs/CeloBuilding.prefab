@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 8364797058816080233}
   - component: {fileID: 9046271230118448869}
   - component: {fileID: 8364144096056834791}
+  - component: {fileID: 7876283856567493738}
   m_Layer: 0
   m_Name: celo_building_interior:polySurface29
   m_TagString: Untagged
@@ -115,6 +116,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7876283856567493738
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241044536895184858}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8671680386022623682, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &337354324466235413
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,6 +149,7 @@ GameObject:
   - component: {fileID: 7609263517186514990}
   - component: {fileID: 21438913412229720}
   - component: {fileID: 2825144082833561035}
+  - component: {fileID: 778651802780675290}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere15
   m_TagString: Untagged
@@ -198,6 +222,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &778651802780675290
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337354324466235413}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4824125417804826915, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &687687707384161365
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,6 +255,7 @@ GameObject:
   - component: {fileID: 6756616276204844602}
   - component: {fileID: 5969133730650862083}
   - component: {fileID: 8039351131774834348}
+  - component: {fileID: 2544471124691462303}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass3
   m_TagString: Untagged
@@ -281,6 +328,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2544471124691462303
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687687707384161365}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6100462074651700025, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &916058438886425469
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +361,7 @@ GameObject:
   - component: {fileID: 8497363080812689139}
   - component: {fileID: 5197323797874815207}
   - component: {fileID: 3740915819495748606}
+  - component: {fileID: 1963428815341404719}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere9
   m_TagString: Untagged
@@ -364,6 +434,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1963428815341404719
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916058438886425469}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8569343548146677709, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &922466567473964980
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +467,7 @@ GameObject:
   - component: {fileID: 5810965489949122121}
   - component: {fileID: 2360073191151559099}
   - component: {fileID: 6900069413778206709}
+  - component: {fileID: 3765592438903866181}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere12
   m_TagString: Untagged
@@ -447,6 +540,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3765592438903866181
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922466567473964980}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4100694792216571961, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &1125829466351640658
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,6 +573,7 @@ GameObject:
   - component: {fileID: 5429192760772368008}
   - component: {fileID: 8135526220173771648}
   - component: {fileID: 5148762751326985153}
+  - component: {fileID: 8954052124108176047}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass8
   m_TagString: Untagged
@@ -530,6 +646,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8954052124108176047
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125829466351640658}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 434184492079849378, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &1212235053499646185
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,6 +679,7 @@ GameObject:
   - component: {fileID: 4169441469420400622}
   - component: {fileID: 398734345204418134}
   - component: {fileID: 7101198814971297682}
+  - component: {fileID: 6830401564933280127}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere8
   m_TagString: Untagged
@@ -613,6 +752,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6830401564933280127
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212235053499646185}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6814157842896194668, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &1282205205932062134
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,6 +806,73 @@ Transform:
   - {fileID: 990917383674198235}
   m_Father: {fileID: 2925787700877654830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1497274875376379435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5473757699526593192}
+  - component: {fileID: 5594524624758179168}
+  - component: {fileID: 3451663102984751315}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5473757699526593192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497274875376379435}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.04059936, z: -0, w: 0.99917555}
+  m_LocalPosition: {x: -0.8699, y: 0.0381, z: -0.1351}
+  m_LocalScale: {x: 0.029407753, y: 0.09221503, z: 0.12904543}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4132326463549158344}
+  m_LocalEulerAnglesHint: {x: 0, y: -4.654, z: 0}
+--- !u!65 &5594524624758179168
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497274875376379435}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3451663102984751315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497274875376379435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73861408603b0c15922fb927f279858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingToSwitch: {fileID: 0}
 --- !u!1 &1924730388341355515
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +884,7 @@ GameObject:
   - component: {fileID: 9222586132095289905}
   - component: {fileID: 7189972225769520525}
   - component: {fileID: 4262676787715501794}
+  - component: {fileID: 5290467596480467171}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pCylinder8
   m_TagString: Untagged
@@ -729,6 +958,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5290467596480467171
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924730388341355515}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6995673046346864673, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &2052118642584399979
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +991,7 @@ GameObject:
   - component: {fileID: 5585878446550689944}
   - component: {fileID: 6710433685421816901}
   - component: {fileID: 5311886655657677699}
+  - component: {fileID: 4006579147639107976}
   m_Layer: 0
   m_Name: celo_building_interior:celo_building_interior:old_comm4
   m_TagString: Untagged
@@ -812,6 +1064,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4006579147639107976
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052118642584399979}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8722645457587746952, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &2063930543510270805
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,6 +1097,7 @@ GameObject:
   - component: {fileID: 1831969414978425836}
   - component: {fileID: 3735793893459243381}
   - component: {fileID: 4545064547030319138}
+  - component: {fileID: 5595833620251526528}
   m_Layer: 0
   m_Name: celo_building_interior:celo_building_interior:celo_interior_0036:celo_interior_0010:pCylinder6
   m_TagString: Untagged
@@ -895,6 +1170,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5595833620251526528
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063930543510270805}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4326979759363878230, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &2127076874173689194
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,6 +1203,7 @@ GameObject:
   - component: {fileID: 8963782621182489619}
   - component: {fileID: 8750947727055947694}
   - component: {fileID: 981599100903226594}
+  - component: {fileID: 232850446631623629}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere11
   m_TagString: Untagged
@@ -978,6 +1276,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &232850446631623629
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127076874173689194}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8766037631046048328, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &2128647769196157549
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,6 +1309,7 @@ GameObject:
   - component: {fileID: 3086260039139265827}
   - component: {fileID: 3164848393243190778}
   - component: {fileID: 8730887151183414664}
+  - component: {fileID: 1967942203244751683}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere3
   m_TagString: Untagged
@@ -1061,6 +1382,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1967942203244751683
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128647769196157549}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4317121060349545434, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &2242070649787444761
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,6 +1415,7 @@ GameObject:
   - component: {fileID: 6855180317418265702}
   - component: {fileID: 6837871845870118356}
   - component: {fileID: 6099109715502055718}
+  - component: {fileID: 8717101569390775879}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:celo_interior_0010:polySurface2
   m_TagString: Untagged
@@ -1144,6 +1488,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8717101569390775879
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2242070649787444761}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7891364721390166096, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &2358267507838677465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,6 +1521,7 @@ GameObject:
   - component: {fileID: 2711627078617358480}
   - component: {fileID: 7053887164072250332}
   - component: {fileID: 300754082562493387}
+  - component: {fileID: 897372495848489125}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass9
   m_TagString: Untagged
@@ -1227,6 +1594,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &897372495848489125
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2358267507838677465}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1793303216082953999, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &2447886647788297420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1238,6 +1627,7 @@ GameObject:
   - component: {fileID: 8440028699747601985}
   - component: {fileID: 8794933744219288469}
   - component: {fileID: 8223107891021381067}
+  - component: {fileID: 5472809586519684497}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass7
   m_TagString: Untagged
@@ -1310,6 +1700,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5472809586519684497
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2447886647788297420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7813181571920909998, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &2459735529840006377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,6 +1733,7 @@ GameObject:
   - component: {fileID: 4329823230393472947}
   - component: {fileID: 1450245302010864154}
   - component: {fileID: 1688104893993712868}
+  - component: {fileID: 4457477531853026783}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere7
   m_TagString: Untagged
@@ -1393,6 +1806,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4457477531853026783
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459735529840006377}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8595447873106132609, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &2749768568667499795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +1904,7 @@ GameObject:
   - component: {fileID: 4563963135565690938}
   - component: {fileID: 3385052881784915848}
   - component: {fileID: 5245320758121771387}
+  - component: {fileID: 6291892668474746191}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass12
   m_TagString: Untagged
@@ -1541,6 +1977,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6291892668474746191
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3053005608733376000}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6120409000398496203, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &3173721172862240039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +2010,7 @@ GameObject:
   - component: {fileID: 3715885029293779121}
   - component: {fileID: 7770431654797283339}
   - component: {fileID: 2251898503340802168}
+  - component: {fileID: 5105146719491299663}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere5
   m_TagString: Untagged
@@ -1624,6 +2083,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5105146719491299663
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3173721172862240039}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4441963720109167934, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &3508310148275803066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +2116,7 @@ GameObject:
   - component: {fileID: 192693114338758495}
   - component: {fileID: 7419718961735143731}
   - component: {fileID: 8148270657028847671}
+  - component: {fileID: 8009931642649795122}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:celo_interior_0010:pSphere3
   m_TagString: Untagged
@@ -1707,6 +2189,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8009931642649795122
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3508310148275803066}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -757878403032849281, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &3904032223417398869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,6 +2222,7 @@ GameObject:
   - component: {fileID: 8996032842574757308}
   - component: {fileID: 5249515043245755150}
   - component: {fileID: 6772290895119717166}
+  - component: {fileID: 6887001637191081295}
   m_Layer: 0
   m_Name: stchu
   m_TagString: Untagged
@@ -1790,6 +2295,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6887001637191081295
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3904032223417398869}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5341582064966930679, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &4011907926484245930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1834,6 +2361,7 @@ GameObject:
   - component: {fileID: 8902216553738047934}
   - component: {fileID: 4436737285093113394}
   - component: {fileID: 7794126048373544194}
+  - component: {fileID: 4892039418271305077}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass6
   m_TagString: Untagged
@@ -1906,6 +2434,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4892039418271305077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153568549502492677}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8885594013599140941, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &4595960754494496363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,6 +2499,7 @@ GameObject:
   - component: {fileID: 2375980880621255252}
   - component: {fileID: 4721668159769736830}
   - component: {fileID: 3114346030921752607}
+  - component: {fileID: 5743659958721671125}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere14
   m_TagString: Untagged
@@ -2021,6 +2572,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5743659958721671125
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4870515787399886717}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8771455398049770452, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &5509864745330554999
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,6 +2637,7 @@ GameObject:
   - component: {fileID: 8786650383978981064}
   - component: {fileID: 9200639678727703978}
   - component: {fileID: 1619075385197724637}
+  - component: {fileID: 8525679054586463449}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass2
   m_TagString: Untagged
@@ -2136,6 +2710,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8525679054586463449
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5550852015101470315}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6633308641970846066, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &5624625091049698931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,6 +2743,7 @@ GameObject:
   - component: {fileID: 5724281248828048435}
   - component: {fileID: 2707580642660945744}
   - component: {fileID: 929500690438426759}
+  - component: {fileID: 8085391582298749437}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:polySurface22
   m_TagString: Untagged
@@ -2220,6 +2817,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8085391582298749437
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5624625091049698931}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4872048807664488057, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &5881387743711244127
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,6 +2850,7 @@ GameObject:
   - component: {fileID: 547843118427168274}
   - component: {fileID: 4958957603881404984}
   - component: {fileID: 1621004765970347308}
+  - component: {fileID: 4975058816376390470}
   m_Layer: 0
   m_Name: celo_building_interior:celo_building_interior:polySurface28
   m_TagString: Untagged
@@ -2303,6 +2923,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4975058816376390470
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5881387743711244127}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4343155647470681629, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &5931950475049795712
 GameObject:
   m_ObjectHideFlags: 0
@@ -2314,6 +2956,7 @@ GameObject:
   - component: {fileID: 5750264874012990173}
   - component: {fileID: 958000741901174832}
   - component: {fileID: 8945668789514665653}
+  - component: {fileID: 5052356230037021466}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere18
   m_TagString: Untagged
@@ -2386,6 +3029,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5052356230037021466
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5931950475049795712}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6634754499482572567, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &6123424439678092937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,6 +3062,7 @@ GameObject:
   - component: {fileID: 5245713121907977590}
   - component: {fileID: 1884362890159998675}
   - component: {fileID: 4298807550054527278}
+  - component: {fileID: 2678256087598010015}
   m_Layer: 0
   m_Name: celo_building_interior:polySurface30
   m_TagString: Untagged
@@ -2469,6 +3135,59 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2678256087598010015
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6123424439678092937}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7010288393661165548, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
+--- !u!1 &6168460749010942399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5237946689807639615}
+  m_Layer: 0
+  m_Name: PlayerSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5237946689807639615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6168460749010942399}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6398, y: 0.0041, z: -0.1351}
+  m_LocalScale: {x: 0.033103, y: 0.033103, z: 0.033103}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4132326463549158344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6273850509987133377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2480,6 +3199,7 @@ GameObject:
   - component: {fileID: 981221759715957939}
   - component: {fileID: 4575954184834164632}
   - component: {fileID: 5584700494141636549}
+  - component: {fileID: 6145044146427212777}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere10
   m_TagString: Untagged
@@ -2552,6 +3272,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6145044146427212777
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6273850509987133377}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4570132680850281077, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &6306873489887126664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2563,6 +3305,7 @@ GameObject:
   - component: {fileID: 1728485074550297091}
   - component: {fileID: 1686472947653415157}
   - component: {fileID: 1818751695785536169}
+  - component: {fileID: 188113392531025879}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere17
   m_TagString: Untagged
@@ -2635,6 +3378,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &188113392531025879
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6306873489887126664}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4575054468816780868, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &6444300080563580184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,6 +3411,7 @@ GameObject:
   - component: {fileID: 2908012534527194163}
   - component: {fileID: 371513228917684033}
   - component: {fileID: 4934081267815794069}
+  - component: {fileID: 1117256532023041799}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere16
   m_TagString: Untagged
@@ -2718,6 +3484,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1117256532023041799
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6444300080563580184}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1955422506551786793, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &6560165142301379819
 GameObject:
   m_ObjectHideFlags: 0
@@ -2729,6 +3517,7 @@ GameObject:
   - component: {fileID: 8064373832680589797}
   - component: {fileID: 2952179282772217802}
   - component: {fileID: 3061079995032763970}
+  - component: {fileID: 3206831540169848328}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere22
   m_TagString: Untagged
@@ -2801,6 +3590,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3206831540169848328
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6560165142301379819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8193644638796844500, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &6641576635461844829
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,6 +3657,7 @@ GameObject:
   - component: {fileID: 2343233343777275143}
   - component: {fileID: 1363600586016649866}
   - component: {fileID: 2826552242768082543}
+  - component: {fileID: 3139284969565791507}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass10
   m_TagString: Untagged
@@ -2918,6 +3730,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3139284969565791507
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6722965249390972184}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -361929841577123765, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &7005286365031692604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2929,6 +3763,7 @@ GameObject:
   - component: {fileID: 8224957321154495442}
   - component: {fileID: 4861618123246251687}
   - component: {fileID: 43060422198153195}
+  - component: {fileID: 3050716675368918355}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere4
   m_TagString: Untagged
@@ -3001,6 +3836,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3050716675368918355
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7005286365031692604}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4102560023685816336, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &7252484206527637458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3074,6 +3931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4132326463549158344}
+  - component: {fileID: 8406754561345083269}
   m_Layer: 0
   m_Name: CeloBuilding
   m_TagString: Untagged
@@ -3091,8 +3949,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1831969414978425836}
   - {fileID: 5585878446550689944}
@@ -3134,8 +3992,23 @@ Transform:
   - {fileID: 8274074228451745687}
   - {fileID: 4563963135565690938}
   - {fileID: 8996032842574757308}
+  - {fileID: 5237946689807639615}
+  - {fileID: 5473757699526593192}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8406754561345083269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7333654433749518533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31083b89c9166b525b263c6e46f65398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpawn: {fileID: 5237946689807639615}
 --- !u!1 &7803397578450470448
 GameObject:
   m_ObjectHideFlags: 0
@@ -3147,6 +4020,7 @@ GameObject:
   - component: {fileID: 1519907917850949143}
   - component: {fileID: 8923810312437737982}
   - component: {fileID: 5227729096976660322}
+  - component: {fileID: 3363515148112323502}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass5
   m_TagString: Untagged
@@ -3219,6 +4093,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3363515148112323502
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7803397578450470448}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8652073349082432792, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &7859065954781628719
 GameObject:
   m_ObjectHideFlags: 0
@@ -3230,6 +4126,7 @@ GameObject:
   - component: {fileID: 3893404685421139715}
   - component: {fileID: 917765872361182971}
   - component: {fileID: 4528622730230450422}
+  - component: {fileID: 3191447808181325489}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass1
   m_TagString: Untagged
@@ -3302,6 +4199,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3191447808181325489
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7859065954781628719}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1578752966724657796, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &8053302305548530790
 GameObject:
   m_ObjectHideFlags: 0
@@ -3313,6 +4232,7 @@ GameObject:
   - component: {fileID: 6024239089304815420}
   - component: {fileID: 5162013378632566151}
   - component: {fileID: 9152398338040615351}
+  - component: {fileID: 8131635961668004883}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere21
   m_TagString: Untagged
@@ -3385,6 +4305,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8131635961668004883
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8053302305548530790}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8199638628916901924, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &8089485297013583188
 GameObject:
   m_ObjectHideFlags: 0
@@ -3396,6 +4338,7 @@ GameObject:
   - component: {fileID: 8314043033859455078}
   - component: {fileID: 2102659799456595150}
   - component: {fileID: 455805577304986533}
+  - component: {fileID: 2278253632049688208}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:polySurface15
   m_TagString: Untagged
@@ -3468,6 +4411,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2278253632049688208
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8089485297013583188}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3885141512776936772, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &8108499882042493974
 GameObject:
   m_ObjectHideFlags: 0
@@ -3479,6 +4444,7 @@ GameObject:
   - component: {fileID: 8274074228451745687}
   - component: {fileID: 664035095056293226}
   - component: {fileID: 9103607920072475473}
+  - component: {fileID: 4554736547306768362}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass11
   m_TagString: Untagged
@@ -3551,6 +4517,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4554736547306768362
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108499882042493974}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5970563579109839636, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &8333553805838858418
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,6 +4550,7 @@ GameObject:
   - component: {fileID: 804487731189799356}
   - component: {fileID: 397113056383342738}
   - component: {fileID: 6844756576278650893}
+  - component: {fileID: 640129265391651529}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:polySurface20
   m_TagString: Untagged
@@ -3634,6 +4623,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &640129265391651529
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8333553805838858418}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9071241852739086992, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &8409334837967977837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3645,6 +4656,7 @@ GameObject:
   - component: {fileID: 1749529763728594693}
   - component: {fileID: 1222513114068559061}
   - component: {fileID: 2095071059462365343}
+  - component: {fileID: 8847181111885754985}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere20
   m_TagString: Untagged
@@ -3717,6 +4729,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8847181111885754985
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8409334837967977837}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8624905634855536396, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &8411020463256928446
 GameObject:
   m_ObjectHideFlags: 0
@@ -3761,6 +4795,7 @@ GameObject:
   - component: {fileID: 9111029650948354021}
   - component: {fileID: 9008704175430008758}
   - component: {fileID: 6779460108697734124}
+  - component: {fileID: 4903032818344869258}
   m_Layer: 0
   m_Name: celo_building_interior:SM_GeneratorGlass4
   m_TagString: Untagged
@@ -3833,6 +4868,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4903032818344869258
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421293633618639427}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3102689675655040079, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &8430271173658403747
 GameObject:
   m_ObjectHideFlags: 0
@@ -3876,6 +4933,7 @@ GameObject:
   - component: {fileID: 1557069783998755321}
   - component: {fileID: 2137732657816751543}
   - component: {fileID: 7398926691943502645}
+  - component: {fileID: 1162079315140129664}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere13
   m_TagString: Untagged
@@ -3948,6 +5006,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1162079315140129664
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8681830084951058427}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9018419685374752516, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &8957656147761114751
 GameObject:
   m_ObjectHideFlags: 0
@@ -3959,6 +5039,7 @@ GameObject:
   - component: {fileID: 6063463422625011644}
   - component: {fileID: 8469437166541713954}
   - component: {fileID: 2744686104302401713}
+  - component: {fileID: 7092041564635616567}
   m_Layer: 0
   m_Name: celo_building_interior:celo_interior_0036:pSphere19
   m_TagString: Untagged
@@ -4031,6 +5112,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7092041564635616567
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8957656147761114751}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5489537192193534807, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &8979200726828157666
 GameObject:
   m_ObjectHideFlags: 0
@@ -4042,6 +5145,7 @@ GameObject:
   - component: {fileID: 4692942728854305415}
   - component: {fileID: 2928250768637321699}
   - component: {fileID: 8751897178159147382}
+  - component: {fileID: 2517497346232821884}
   m_Layer: 0
   m_Name: polySurface22
   m_TagString: Untagged
@@ -4115,6 +5219,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2517497346232821884
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8979200726828157666}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -889180119648741084, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}
 --- !u!1 &9102791855691370957
 GameObject:
   m_ObjectHideFlags: 0
@@ -4126,6 +5252,7 @@ GameObject:
   - component: {fileID: 3740403411286420942}
   - component: {fileID: 2608830860896883562}
   - component: {fileID: 8206331031607783927}
+  - component: {fileID: 6175439049357381477}
   m_Layer: 0
   m_Name: celo_building_interior:polySurface26
   m_TagString: Untagged
@@ -4198,3 +5325,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6175439049357381477
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9102791855691370957}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5791525754251770810, guid: aa37dcef1b38a3e4491b2930263f2af3, type: 3}

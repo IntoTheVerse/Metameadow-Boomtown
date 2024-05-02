@@ -14,13 +14,10 @@ public class BuildingSwitchTrigger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            StartCoroutine(buildingToSwitch.SpawnPlayer(other.gameObject));
-            //gameObject.SetActive(false);
-            /*switchConfirmManager.TakeConfirmation(gameObject.name, confirmation => 
-            { 
+            switchConfirmManager.TakeConfirmation(gameObject.name, confirmation => 
+            {
                 if(confirmation) StartCoroutine(buildingToSwitch.SpawnPlayer(other.gameObject));
-                gameObject.SetActive(true);
-            });*/
+            });
         }
     }
 }

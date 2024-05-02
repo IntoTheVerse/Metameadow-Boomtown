@@ -1,10 +1,12 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
 public class SwitchBuildingConfirmationManager : MonoBehaviour
 {
     public GameObject holder;
+    public GameObject innerHolder;
     public TextMeshProUGUI headerText;
     private Action<bool> confirmation;
     public void TakeConfirmation(string buildingName, Action<bool> confirmation)
@@ -17,6 +19,14 @@ public class SwitchBuildingConfirmationManager : MonoBehaviour
     public void Yes()
     {
         confirmation?.Invoke(true);
+        StartCoroutine(YesCoroutine());
+    }
+
+    private IEnumerator YesCoroutine()
+    {
+        innerHolder.SetActive(false);
+        yield return new WaitForSeconds(1.5f);
+        innerHolder.SetActive(true);
         holder.SetActive(false);
     }
 
