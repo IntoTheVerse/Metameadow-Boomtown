@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using Photon.Pun;
 using Photon.Realtime;
@@ -17,8 +18,11 @@ public class PvPPhotonLobbyManager : MonoBehaviourPunCallbacks
    private float nextUpdateTime;
 
    public GameObject playerProfile;
+   public GameObject loadingScene;
+   public TextMeshProUGUI loadingText;
+   public Image loadingBar;
 
-    private void Start()
+   private void Start()
     {
         PhotonNetwork.JoinLobby();
         PhotonNetwork.AutomaticallySyncScene = true;
@@ -43,7 +47,20 @@ public class PvPPhotonLobbyManager : MonoBehaviourPunCallbacks
    public override void OnJoinedRoom()
    {
       PhotonNetwork.LoadLevel("World");
+      FindObjectOfType<MenuCharacterManager>().ShowSelectedCharacter(WalletManager.Instance.Character);
+      loadingScene.SetActive(true);
+      StartCoroutine(LoadingEnum());
       //UpdatePlayerRoomList();
+   }
+
+   private IEnumerator LoadingEnum()
+   {
+      while (PhotonNetwork.LevelLoadingProgress < 1)
+      {
+         loadingBar.fillAmount = PhotonNetwork.LevelLoadingProgress;
+         loadingText.text = $"{(int)(PhotonNetwork.LevelLoadingProgress * 100)}%";
+         yield return new WaitForEndOfFrame();
+      }
    }
 
    public override void OnPlayerEnteredRoom(Player newPlayer)

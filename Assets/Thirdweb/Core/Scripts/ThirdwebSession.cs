@@ -10,6 +10,7 @@ using Thirdweb.Wallets;
 using System.Linq;
 using Newtonsoft.Json;
 using Nethereum.Hex.HexTypes;
+using Thirdweb.AccountAbstraction;
 
 namespace Thirdweb
 {
@@ -118,7 +119,7 @@ namespace Thirdweb
             }
 
             var addy = await ActiveWallet.GetAddress();
-
+            
             ThirdwebDebug.Log($"Connected wallet {walletConnection.provider} with address {addy} on chain {ChainId} with RPC {RPC}");
 
             return addy;

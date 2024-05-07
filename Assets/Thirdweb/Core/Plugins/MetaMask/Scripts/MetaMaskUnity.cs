@@ -259,7 +259,7 @@ namespace MetaMask.Unity
             // Validate config
             if (Config.AppName == "example" || Config.AppUrl == "example.com")
             {
-                if (SceneManager.GetActiveScene().name.ToLower() != "metamask main (sample)")
+                if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.ToLower() != "metamask main (sample)")
                     throw new ArgumentException(
                         "Cannot use example App name or App URL, please update app info in Window > MetaMask > Setup Window under Credentials");
             }

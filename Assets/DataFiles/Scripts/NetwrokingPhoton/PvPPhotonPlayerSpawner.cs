@@ -56,9 +56,7 @@ public class PvPPhotonPlayerSpawner : MonoBehaviourPunCallbacks
 
         Vector3 spawnPosition = new Vector3(_spawnPoints[spawnPointIndex].transform.position.x + UnityEngine.Random.Range(-2,2), _spawnPoints[spawnPointIndex].transform.position.y, _spawnPoints[spawnPointIndex].transform.position.z + UnityEngine.Random.Range(-2, 2));
 
-        int playerPrefabIndex = UnityEngine.Random.Range(0, _playerPrefab.Length);
-        Debug.LogError($"index {playerPrefabIndex}");
         // Spawn the player across the network.
-        var player = PhotonNetwork.Instantiate(_playerPrefab[playerPrefabIndex].name, spawnPosition, Quaternion.identity);
+        var player = PhotonNetwork.Instantiate(_playerPrefab[WalletManager.Instance.Character].name, spawnPosition, Quaternion.identity);
     }
 }

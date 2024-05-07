@@ -201,6 +201,7 @@ namespace Thirdweb.Examples
         private async void PostConnect(WalletConnection wc = null)
         {
             ThirdwebDebug.Log($"Connected to {_address}");
+            WalletManager.Instance.SetWalletAddress(_address);
 
             var addy = _address.ShortenAddress();
             foreach (var addressText in addressTexts)
@@ -208,6 +209,7 @@ namespace Thirdweb.Examples
 
             var bal = await ThirdwebManager.Instance.SDK.Wallet.GetBalance();
             var balStr = $"{bal.value.ToEth()} {bal.symbol}";
+            WalletManager.Instance.Currency = balStr;
             foreach (var balanceText in balanceTexts)
                 balanceText.text = balStr;
 
