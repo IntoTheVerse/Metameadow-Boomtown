@@ -1,6 +1,5 @@
+using Invector.vCharacterController;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MiniMapCamera : MonoBehaviour
@@ -15,7 +14,7 @@ public class MiniMapCamera : MonoBehaviour
                try
                {
                    if (!target)
-                       target = FindObjectOfType<IntrantThirdPersonController>().transform ;
+                       target = FindObjectOfType<vThirdPersonController>().transform ;
                }
                catch (Exception e)
                {

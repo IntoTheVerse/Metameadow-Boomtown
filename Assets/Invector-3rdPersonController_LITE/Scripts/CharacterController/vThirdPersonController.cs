@@ -45,6 +45,7 @@ namespace Invector.vCharacterController
         public GameObject _sliceTwof;
         public GameObject _sliceTwoT;
         public GameObject _attackAura;
+        public GameObject _playerPointer;
 
 
         #region Actions
@@ -452,6 +453,17 @@ namespace Invector.vCharacterController
             isAttacking = false;
         }
         
+        public void SetPlayerPointer()
+        {
+            if(photonView.IsMine)
+            {
+                _playerPointer.GetComponent<PlayerMinimapPointer>()._mesh.material = _playerPointer.GetComponent<PlayerMinimapPointer>().localPlayerMat;
+            }else if (!photonView.IsMine)
+            {
+                _playerPointer.GetComponent<PlayerMinimapPointer>()._mesh.material = _playerPointer.GetComponent<PlayerMinimapPointer>().otherPlayerMat;
+            }
+        }
+
         #region Server
         
         private void FixedUpdate()

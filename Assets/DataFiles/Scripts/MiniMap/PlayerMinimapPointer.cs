@@ -1,17 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class PlayerMinimapPointer : MonoBehaviour
+public class PlayerMinimapPointer : MonoBehaviourPunCallbacks
 {
     public Transform target;
     public float height = 25.0f;
-    private float wantedHeight;
+    public float wantedHeight;
+    public float smoothness = 5.0f;
+    public float rotationSpeed = 5.0f;
     public int markerSize = 25;
     public bool targetFound = false;
+    public bool playersPointer = false;
+
+    public MeshRenderer _mesh;
+    public Material localPlayerMat;
+    public Material otherPlayerMat;
+
     private void Awake()
     {
-        this.transform.localScale = new Vector3(markerSize, 0.1f, markerSize);
+        transform.localScale = new Vector3(markerSize, 0.1f, markerSize);
     }
     void Start()
     {
@@ -19,33 +26,44 @@ public class PlayerMinimapPointer : MonoBehaviour
         {
             wantedHeight = target.position.y + height;
         }
+        if (photonView.IsMine)
+        {
+            _mesh.material = localPlayerMat;
+        }else if(!photonView.IsMine)
+        {
+            _mesh.material = otherPlayerMat;
+        }
     }
 
     void Update()
     {
-        if (!target)
+        if (target != null)
         {
-            if(!targetFound)
+            // Smoothly move towards the target position
+            transform.position = Vector3.Lerp(transform.position, new Vector3(target.position.x, wantedHeight, target.position.z), Time.deltaTime * smoothness);
+
+            // Smoothly rotate towards the target rotation
+            if (playersPointer)
+            {
+                Debug.LogError("Pointer Moving");
+                Quaternion targetRotation = Quaternion.LookRotation(target.forward, Vector3.up);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+            }
+            else
+            {
+
+            }
+        }
+        else if (!target)
+        {
+            if (!targetFound)
             {
                 return;
-            }else if(targetFound)
+            }
+            else if (targetFound)
             {
                 Destroy(gameObject);
             }
         }
-        else if(target !=null)
-        {
-            targetFound = true;
-            //follow the racer
-            transform.position = new Vector3(target.position.x, wantedHeight, target.position.z);
-
-            //Rotate in the direction of the racer
-            Quaternion rot = transform.rotation;
-            rot = target.rotation;
-            rot.x = 0;
-            rot.z = 0;
-            transform.rotation = rot;
-        }
-
     }
 }

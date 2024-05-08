@@ -1,12 +1,11 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using Invector.vCharacterController;
 using Photon.Pun;
 using UnityEngine;
 
 public class PvPPhotonPlayerSpawner : MonoBehaviourPunCallbacks
 {
    public GameObject []_playerPrefab;
+   public GameObject _playerPointerPrefab;
 
    public GameObject[] _spawnPoints;
 
@@ -58,5 +57,9 @@ public class PvPPhotonPlayerSpawner : MonoBehaviourPunCallbacks
 
         // Spawn the player across the network.
         var player = PhotonNetwork.Instantiate(_playerPrefab[WalletManager.Instance.Character].name, spawnPosition, Quaternion.identity);
+        var playerPointer = PhotonNetwork.Instantiate(_playerPointerPrefab.name, Vector3.zero, Quaternion.identity);
+        playerPointer.GetComponent<PlayerMinimapPointer>().target = player.transform;
+        player.GetComponent<vThirdPersonController>()._playerPointer = playerPointer;
+        player.GetComponent<vThirdPersonController>().SetPlayerPointer();
     }
 }

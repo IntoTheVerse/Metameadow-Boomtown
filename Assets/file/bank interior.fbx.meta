@@ -3,7 +3,37 @@ guid: 65f4de7e35dfd8d48932b80e9287671b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bank_interior_MAT_Supermarket_01_red
+    second: {fileID: 2100000, guid: 45c6af805eb378f47901b4d44ce1b5ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bank_interior_MAT_Supermarket_glass_01
+    second: {fileID: 2100000, guid: 29934ab41efb45d43b1fca1f053b4138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bank_interior_lambert2
+    second: {fileID: 2100000, guid: fc5bf699f252f28468940e7bb2f22d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bank_interior_lambert3
+    second: {fileID: 2100000, guid: 6c2baf5488b0116448a8149891712d67, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: new plane_initialShadingGroup_BaseColor
+    second: {fileID: 2800000, guid: db1696b78d291a447a3700cdf16ec168, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: psd_Supermarket_01
+    second: {fileID: 2800000, guid: d1f3b015bc17f9f4094933e2a6f0ad27, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
