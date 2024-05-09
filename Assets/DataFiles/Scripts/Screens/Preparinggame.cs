@@ -6,6 +6,7 @@ public class Preparinggame : MonoBehaviour
     public GameObject[] selectedCharacters;
     public TextMeshProUGUI username;
     public TextMeshProUGUI walletAddress;
+    public TextMeshProUGUI profileWalletAddress;
     public TextMeshProUGUI currency;
 
     public void Start()
@@ -13,6 +14,7 @@ public class Preparinggame : MonoBehaviour
         ShowSelectedCharacter(WalletManager.Instance.Character);
         username.text = WalletManager.Instance.Username;
         walletAddress.text = WalletManager.Instance.WalletAddress;
+        profileWalletAddress.text = WalletManager.Instance.WalletAddress;
         currency.text = WalletManager.Instance.Currency;
     }
 

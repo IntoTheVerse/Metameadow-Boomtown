@@ -29,6 +29,7 @@ public class NPCController : MonoBehaviour
     public GameObject _refiPanel;
     public GameObject _bankPanel;
     public GameObject _marketPanel;
+    public GameObject _profilePanel;
     public Button _next;
 
     private static readonly int IdleHash = Animator.StringToHash("Idle");
@@ -47,20 +48,26 @@ public class NPCController : MonoBehaviour
                 _next.onClick.AddListener(() => 
                 {
                     _celloPanel.SetActive(true);
+                    _profilePanel.SetActive(false);
                 });
-            }else if(building == Building.Market) {
+            }
+            else if(building == Building.Market) 
+            {
                 _next.onClick.RemoveAllListeners();
                 _next.onClick.AddListener(() =>
                 {
                     _marketPanel.SetActive(true);
+                    _profilePanel.SetActive(false);
                 });
             }
-        }else if (npcType == NPCType.Flint)
+        }
+        else if (npcType == NPCType.Flint)
         {
             _next.onClick.RemoveAllListeners();
             _next.onClick.AddListener(() =>
             {
                 _bankPanel.SetActive(true);
+                _profilePanel.SetActive(false);
             });
         }
         else if (npcType == NPCType.Clarity)
@@ -69,6 +76,7 @@ public class NPCController : MonoBehaviour
             _next.onClick.AddListener(() =>
             {
                 _refiPanel.SetActive(true);
+                _profilePanel.SetActive(false);
             });
         }
     }
