@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class BuildingSwitchTrigger : MonoBehaviour
 {
+    public GameObject minimap;
+    public bool turnOffMinimap = false;
     public BuildingSwitch buildingToSwitch;
     private SwitchBuildingConfirmationManager switchConfirmManager;
 
@@ -16,7 +18,11 @@ public class BuildingSwitchTrigger : MonoBehaviour
         {
             switchConfirmManager.TakeConfirmation(gameObject.name, confirmation => 
             {
-                if(confirmation) StartCoroutine(buildingToSwitch.SpawnPlayer(other.gameObject));
+                if (confirmation) 
+                {
+                    StartCoroutine(buildingToSwitch.SpawnPlayer(other.gameObject));
+                    minimap.SetActive(!turnOffMinimap);
+                }
             });
         }
     }
