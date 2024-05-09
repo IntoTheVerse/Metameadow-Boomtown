@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PvPPhotonPlayerSpawner : MonoBehaviourPunCallbacks
 {
-   public GameObject []_playerPrefab;
-   public GameObject _playerPointerPrefab;
-
-   public GameObject[] _spawnPoints;
+    public GameObject []_playerPrefab;
+    public GameObject _playerPointerPrefab;
+    public NavigationManager _navigationManager;
+    public GameObject[] _spawnPoints;
 
     public GameObject _spawnEffect;
 
@@ -61,5 +61,9 @@ public class PvPPhotonPlayerSpawner : MonoBehaviourPunCallbacks
         playerPointer.GetComponent<PlayerMinimapPointer>().target = player.transform;
         player.GetComponent<vThirdPersonController>()._playerPointer = playerPointer;
         player.GetComponent<vThirdPersonController>().SetPlayerPointer();
+        if (player.GetComponent<vThirdPersonController>().photonView.IsMine)
+        {
+            _navigationManager._player = player.transform;
+        }
     }
 }
