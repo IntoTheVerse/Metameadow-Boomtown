@@ -45,7 +45,7 @@ public class PlayerMinimapPointer : MonoBehaviourPunCallbacks
             // Smoothly rotate towards the target rotation
             if (playersPointer)
             {
-                Debug.LogError("Pointer Moving");
+                //Debug.LogError("Pointer Moving");
                 Quaternion targetRotation = Quaternion.LookRotation(target.forward, Vector3.up);
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
             }
