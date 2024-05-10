@@ -1,5 +1,4 @@
 using Cinemachine;
-using Invector.vCharacterController;
 using UnityEngine;
 
 public class CameraFollowingPlayer  : MonoBehaviour
@@ -10,10 +9,7 @@ public class CameraFollowingPlayer  : MonoBehaviour
 
     [Header("Mouse zoom")]
     public bool enableMouseMovement = false;
-    public float sensitivity = 2f;
-    public float zoomSpeed = 5f;
-    public float minDistance = 1f;
-    public float maxDistance = 10f;
+    public bool notAssigned = false;
 
     private void Awake()
     {
@@ -21,10 +17,11 @@ public class CameraFollowingPlayer  : MonoBehaviour
 
     }
 
-    private void LateUpdate()
+    private void Update()
     {
-        if(Player != null)
+        if(Player != null && VirtualCamera != null && !notAssigned)
         {
+            notAssigned = true;
             VirtualCamera.Follow = Player.transform;
             VirtualCamera.LookAt = Player.transform;
         }
