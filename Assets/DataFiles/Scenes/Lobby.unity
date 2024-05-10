@@ -396,6 +396,7 @@ MonoBehaviour:
   WalletAddress: 
   Username: 
   Character: 0
+  Currency: 
 --- !u!4 &169693659
 Transform:
   m_ObjectHideFlags: 0
@@ -1173,7 +1174,7 @@ GameObject:
   - component: {fileID: 778914673}
   - component: {fileID: 778914672}
   m_Layer: 0
-  m_Name: ThirdwebManager(Clone)
+  m_Name: ThirdwebManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

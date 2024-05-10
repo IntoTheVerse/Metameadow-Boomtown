@@ -1,5 +1,4 @@
 using System.Collections;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +7,7 @@ public class NavigationManager : MonoBehaviour
     public Button _navButton;
     public GameObject _navPanel;
     public Transform _player;
-    public GameObject nav;
+    public NavManager nav;
     public Transform navSpawn;
 
     public Transform[] _spawns;
@@ -18,10 +17,11 @@ public class NavigationManager : MonoBehaviour
         _navButton.onClick.AddListener(() => { _navPanel.SetActive(!_navPanel.activeSelf); });
         for (int i = 0; i < _spawns.Length; i++)
         {
-            GameObject go = Instantiate(nav, navSpawn);
+            NavManager go = Instantiate(nav, navSpawn);
             int index = i;
-            go.GetComponentInChildren<TextMeshProUGUI>().text = $"{_spawns[index].name} [{_spawns[index].position}]";
-            go.GetComponentInChildren<Button>().onClick.AddListener(() => StartCoroutine(TP(_spawns[index])));
+            go.navName.text = $"{_spawns[index].name}";
+            go.navCoords.text = $"{(int)_spawns[index].position.x}, {(int)_spawns[index].position.y}, {(int)_spawns[index].position.z}";
+            go.go.onClick.AddListener(() => StartCoroutine(TP(_spawns[index])));
         }
     }
 
