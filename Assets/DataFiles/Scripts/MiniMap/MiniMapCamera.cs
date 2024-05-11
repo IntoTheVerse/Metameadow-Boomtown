@@ -13,14 +13,14 @@ public class MiniMapCamera : MonoBehaviour
     {
         try
         {
-            if (!target )
+            if (!target)
             {
                 var players = FindObjectsOfType<vThirdPersonController>();
                 foreach ( vThirdPersonController p in players)
                 {
                     if (p.photonView.IsMine)
                     {
-                        target = FindObjectOfType<vThirdPersonController>().transform;
+                        target = p;
                     }
                 }
             }
