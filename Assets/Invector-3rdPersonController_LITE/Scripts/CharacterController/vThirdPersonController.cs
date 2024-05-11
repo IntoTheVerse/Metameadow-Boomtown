@@ -104,6 +104,12 @@ namespace Invector.vCharacterController
             if (platform == 0)
                 GetComponent<vThirdPersonInput>().currentPlatform = PlatformType.Mobile;
             else if (platform == 1) GetComponent<vThirdPersonInput>().currentPlatform = PlatformType.PC;
+
+            SkinnedMeshRenderer[] renderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+            for (int j = 0; j < renderers.Length; j++)
+            {
+                renderers[j].sharedMaterial.color = Color.white;
+            }
         }
  
         private void Start()
