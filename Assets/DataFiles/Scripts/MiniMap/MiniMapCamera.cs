@@ -20,7 +20,7 @@ public class MiniMapCamera : MonoBehaviour
                 {
                     if (p.photonView.IsMine)
                     {
-                        target = p;
+                        target = p.transform;
                     }
                 }
             }
