@@ -109,6 +109,7 @@ namespace Invector.vCharacterController
                     // Add Console-specific behavior here
                     break;
             }
+            currentPlatform = PlatformType.PC;
             #region SetListeners
 
             if (currentPlatform == PlatformType.Mobile)
